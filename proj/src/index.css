@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: rgb(207, 183, 42);
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  text-align: center;
+  margin-top: 20%;
+}
+
+.container > h1 {
+  font-style: italic;
+  color: brown;
+}
+.container2 {
+  color: brown;
+  font-weight: 500;
+  font-size: 2rem;
+
+  justify-content: center;
+  text-align: center;
+}
+
+.container2 > button {
+  cursor: pointer;
+  color: black;
+  width: 10%;
+  font-size: 1.5rem;
+  border: 2px solid rgb(46, 44, 44);
+  background-color: rgb(124, 168, 170);
+}
+
+.container2 > button:hover {
+  opacity: 0.5;
+}
